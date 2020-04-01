@@ -1,0 +1,22 @@
+{
+  "name": "code-tray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusPedroSS/code-tray.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusPedroSS/code-tray/issues"
+  },
+  "homepage": "https://github.com/MatheusPedroSS/code-tray#readme",
+  "dependencies": {
+    "electron": "^8.2.0"
+  }
+}
