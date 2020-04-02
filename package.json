@@ -3,8 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "dependencies": {
+    "cross-spawn": "^7.0.1",
+    "electron-store": "^5.1.1",
+    "fs": "0.0.1-security",
+    "locale": "0.1.0"
+  },
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-packager": "^14.2.1",
+    "install": "^0.13.0"
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist:windows": "electron-builder --windows",
+    "win64": "electron-packager . myApp --platform=win32 --arch=x64"
   },
   "repository": {
     "type": "git",
@@ -15,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/MatheusPedroSS/code-tray/issues"
   },
-  "homepage": "https://github.com/MatheusPedroSS/code-tray#readme",
-  "dependencies": {
-    "electron": "^8.2.0"
-  }
+  "homepage": "https://github.com/MatheusPedroSS/code-tray#readme"
 }
